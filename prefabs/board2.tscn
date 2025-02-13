@@ -1,0 +1,314 @@
+[gd_scene load_steps=3 format=3 uid="uid://blj232hooptep"]
+
+[ext_resource type="Texture2D" uid="uid://dpr5yct7nnu7v" path="res://sprites/Board.png" id="1_rgec8"]
+[ext_resource type="PackedScene" uid="uid://kf4ifx3ux08j" path="res://prefabs/piece_slot.tscn" id="2_2oux4"]
+
+[node name="Board" type="Sprite2D"]
+scale = Vector2(2, 2)
+texture = ExtResource("1_rgec8")
+
+[node name="Slots" type="Node2D" parent="."]
+
+[node name="Piece Slot" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, -112)
+
+[node name="Piece Slot2" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, -112)
+grid_x = 1
+
+[node name="Piece Slot3" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, -112)
+grid_x = 2
+
+[node name="Piece Slot4" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, -112)
+grid_x = 3
+
+[node name="Piece Slot5" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, -112)
+grid_x = 4
+
+[node name="Piece Slot6" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, -112)
+grid_x = 5
+
+[node name="Piece Slot7" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, -112)
+grid_x = 6
+
+[node name="Piece Slot8" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, -112)
+grid_x = 7
+
+[node name="Piece Slot9" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, -80)
+grid_y = 1
+
+[node name="Piece Slot10" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, -80)
+grid_x = 1
+grid_y = 1
+
+[node name="Piece Slot11" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, -80)
+grid_x = 2
+grid_y = 1
+
+[node name="Piece Slot12" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, -80)
+grid_x = 3
+grid_y = 1
+
+[node name="Piece Slot13" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, -80)
+grid_x = 4
+grid_y = 1
+
+[node name="Piece Slot14" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, -80)
+grid_x = 5
+grid_y = 1
+
+[node name="Piece Slot15" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, -80)
+grid_x = 6
+grid_y = 1
+
+[node name="Piece Slot16" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, -80)
+grid_x = 7
+grid_y = 1
+
+[node name="Piece Slot17" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, -48)
+grid_y = 2
+
+[node name="Piece Slot18" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, -48)
+grid_x = 1
+grid_y = 2
+
+[node name="Piece Slot19" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, -48)
+grid_x = 2
+grid_y = 2
+
+[node name="Piece Slot20" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, -48)
+grid_x = 3
+grid_y = 2
+
+[node name="Piece Slot21" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, -48)
+grid_x = 4
+grid_y = 2
+
+[node name="Piece Slot22" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, -48)
+grid_x = 5
+grid_y = 2
+
+[node name="Piece Slot23" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, -48)
+grid_x = 6
+grid_y = 2
+
+[node name="Piece Slot24" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, -48)
+grid_x = 7
+grid_y = 2
+
+[node name="Piece Slot25" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, -16)
+grid_y = 3
+
+[node name="Piece Slot26" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, -16)
+grid_x = 1
+grid_y = 3
+
+[node name="Piece Slot27" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, -16)
+grid_x = 2
+grid_y = 3
+
+[node name="Piece Slot28" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, -16)
+grid_x = 3
+grid_y = 3
+
+[node name="Piece Slot29" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, -16)
+grid_x = 4
+grid_y = 3
+
+[node name="Piece Slot30" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, -16)
+grid_x = 5
+grid_y = 3
+
+[node name="Piece Slot31" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, -16)
+grid_x = 6
+grid_y = 3
+
+[node name="Piece Slot32" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, -16)
+grid_x = 7
+grid_y = 3
+
+[node name="Piece Slot33" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, 16)
+grid_y = 4
+
+[node name="Piece Slot34" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, 16)
+grid_x = 1
+grid_y = 4
+
+[node name="Piece Slot35" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, 16)
+grid_x = 2
+grid_y = 4
+
+[node name="Piece Slot36" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, 16)
+grid_x = 3
+grid_y = 4
+
+[node name="Piece Slot37" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, 16)
+grid_x = 4
+grid_y = 4
+
+[node name="Piece Slot38" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, 16)
+grid_x = 5
+grid_y = 4
+
+[node name="Piece Slot39" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, 16)
+grid_x = 6
+grid_y = 4
+
+[node name="Piece Slot40" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, 16)
+grid_x = 7
+grid_y = 4
+
+[node name="Piece Slot41" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, 48)
+grid_y = 5
+
+[node name="Piece Slot42" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, 48)
+grid_x = 1
+grid_y = 5
+
+[node name="Piece Slot43" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, 48)
+grid_x = 2
+grid_y = 5
+
+[node name="Piece Slot44" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, 48)
+grid_x = 3
+grid_y = 5
+
+[node name="Piece Slot45" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, 48)
+grid_x = 4
+grid_y = 5
+
+[node name="Piece Slot46" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, 48)
+grid_x = 5
+grid_y = 5
+
+[node name="Piece Slot47" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, 48)
+grid_x = 6
+grid_y = 5
+
+[node name="Piece Slot48" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, 48)
+grid_x = 7
+grid_y = 5
+
+[node name="Piece Slot49" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, 80)
+grid_y = 6
+
+[node name="Piece Slot50" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, 80)
+grid_x = 1
+grid_y = 6
+
+[node name="Piece Slot51" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, 80)
+grid_x = 2
+grid_y = 6
+
+[node name="Piece Slot52" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, 80)
+grid_x = 3
+grid_y = 6
+
+[node name="Piece Slot53" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, 80)
+grid_x = 4
+grid_y = 6
+
+[node name="Piece Slot54" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, 80)
+grid_x = 5
+grid_y = 6
+
+[node name="Piece Slot55" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, 80)
+grid_x = 6
+grid_y = 6
+
+[node name="Piece Slot56" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, 80)
+grid_x = 7
+grid_y = 6
+
+[node name="Piece Slot57" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-112, 112)
+grid_y = 7
+
+[node name="Piece Slot58" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-80, 112)
+grid_x = 1
+grid_y = 7
+
+[node name="Piece Slot59" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-48, 112)
+grid_x = 2
+grid_y = 7
+
+[node name="Piece Slot60" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(-16, 112)
+grid_x = 3
+grid_y = 7
+
+[node name="Piece Slot61" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(16, 112)
+grid_x = 4
+grid_y = 7
+
+[node name="Piece Slot62" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(48, 112)
+grid_x = 5
+grid_y = 7
+
+[node name="Piece Slot63" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(80, 112)
+grid_x = 6
+grid_y = 7
+
+[node name="Piece Slot64" parent="Slots" instance=ExtResource("2_2oux4")]
+position = Vector2(112, 112)
+grid_x = 7
+grid_y = 7
